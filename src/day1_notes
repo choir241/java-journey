@@ -1,0 +1,47 @@
+// day 1
+import java.util.Scanner;
+
+public class main {
+    public static void main (String[] args) {
+        int[] test = {12, 13};
+
+        // scanner object
+//        Scanner scannerObjName = new Scanner(System.in);
+//
+//        System.out.println("enter your age");
+//        String age = scannerObjName.next();
+//        scannerObjName.nextLine();
+//
+//        System.out.println("enter your name");
+//        String name = scannerObjName.nextLine();
+//
+//        System.out.println("enter your gpa");
+//        double gpa = scannerObjName.nextDouble();
+//
+//        System.out.println(name + gpa + "your age is " + age);
+//
+//        scannerObjName.close();
+
+        double x = 10.0;
+        double y = 20.0;
+
+        double sum = x + y;
+        double multiply = x * y;
+        double subtract = x - y;
+        double divide = x/y;
+        double remainder = x % y;
+
+//        x += y;
+//        x -= y;
+//        x /= y;
+//        x *= y;
+//        y %= x;
+
+//        x++;
+//        x--;
+//        --x;
+//        ++x;
+        System.out.println(x);
+    }
+
+}

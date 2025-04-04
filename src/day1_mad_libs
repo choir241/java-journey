@@ -1,0 +1,39 @@
+import java.util.Scanner;
+
+public class main{
+    public static void main(String[]args){
+
+        Scanner scan = new Scanner(System.in);
+
+        System.out.println("Starting your mad libs!");
+        System.out.print("Enter a noun: ");
+        String noun1 = scan.nextLine();
+        System.out.print("Enter another noun: ");
+        String noun2 = scan.nextLine();
+        System.out.print("Enter your final noun: ");
+        String noun3 = scan.nextLine();
+
+        System.out.print("Enter an adjective: ");
+        String adjective1 = scan.nextLine();
+
+        System.out.print("Enter your final adjective: ");
+        String adjective2 = scan.nextLine();
+
+        System.out.print("Enter a whole number: ");
+        int number1 = scan.nextInt();
+        System.out.print("Enter a whole number: ");
+        int number2 = scan.nextInt();
+
+        System.out.println("Here's your mad libs!");
+
+        System.out.println("Hatsune Miku was getting ready for her big concert.");
+        System.out.println( "She grabbed her favorite " + noun1 + " and put it on her head to make sure she looked stylish.");
+        System.out.println("Her " + noun2 + " was waiting backstage, ready to help her get her microphone set up.");
+        System.out.println("She had a huge crowd of fans, over " + number1 + " people, all excited to see her perform.");
+        System.out.println("As Miku stepped on stage, the crowd went wild! The lights were flashing, and she could feel");
+        System.out.println("the energy in the air. But something was missing. She needed the perfect " + adjective1);
+        System.out.println("sound to really get the crowd going. Fortunately, her " + noun3 + " kicked in and everything");
+        System.out.println("started to sound " + adjective2 + "! With " + number2 + " songs left to go, Miku knew it was");
+        System.out.println("going to be a legendary night. The audience cheered, and the concert was a massive success!");
+    }
+}
